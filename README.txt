@@ -1,23 +1,45 @@
+UrStats — Track. Reflect. Grow.
+
+UrStats is a lightweight, static web application for University of Rizal System Students
+to log and review their daily school activites(e.g Quizzes, Lectures, Exams, Extracculiculars, etc.)
+and evaluate their performace through a journaling-type review. 
+The website also allows students to connect, share insights, and engage with one another’s posts.
+
+Many students struggle with academic burnout throughout the year. UrStats addresses this by providing a 
+social platform for students to encourage students to participate more in (school related activities) by
+providing achievments, statistics, and social connection.
+UrStats helps students stay motivated, balanced, and connected throughout their academic journey.
+
+UrStats also implements a School Year-End "Wrapped" - a personalized recap of each student’s university life 
+throughout the year. This feature highlights academic milestones, activity summaries, and personal growth, 
+allowing students to reflect on their progress and celebrate their achievements.
+
+
+
+Add log:
+
+- Activity Type (Quiz, Acitivity, Extracurriculars)
+    - Course.    
+    -
+- Stars (Rating on how well they performed)
+- Favorite ()
+- Review
+
 How to open the website
 ----------------------
 
 Prerequisites
 - A modern web browser (Chrome, Edge, Firefox).
-- (Optional) VS Code, Node.js, or Python 3 if you prefer a local server.
 
-Quick methods
+Open directly (simple static sites)
+1.) In File Explorer, double-click index.html in the project root.
+2,) Or right-click index.html -> Open with -> choose your browser.
 
-1) Open directly (simple static sites)
-- In File Explorer, double-click index.html in the project root.
-- Or right-click index.html -> Open with -> choose your browser.
+Credits
+----------------------
 
-If the project has a backend
-- See backend README for start instructions (commonly: npm install && npm start, or python manage.py runserver).
-- Start the backend first, then open the frontend URL (often http://localhost:3000 or http://localhost:8000).
-
-Troubleshooting
-- If the page is blank, open the browser DevTools (F12) and check the Console for errors.
-- If assets fail to load, ensure you served the project from the project root (not a parent folder).
-- Try a different port if one is in use (change 8000/8080/5500 accordingly).
-
-If you need instructions tailored to this repo (framework or backend used), tell me which files or frameworks are present (index.html, package.json, manage.py, etc.).
+Fonts - Fontawesome.com
+Images - Google Images
+Sample Book Cover 1 - Freepik.com
+Sample Book Cover 2 - 99static.com
+Sample Book Cover 3 - Shutterstock.com
