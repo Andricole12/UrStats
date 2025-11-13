@@ -5,32 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UrStats - AI Analytics Profile</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- sidebar (converted from header) -->
     <aside class="sidebar">
       <div class="sidebar-top">
         <div class="nav-logo">
-        
-         <img src="/assets/Side Bar/urs logo.jpg" alt="" class="urs-logo">
+          <img src="/assets/Side Bar/urs logo.jpg" alt="" class="urs-logo" />
         </div>
       </div>
 
       <nav class="sidebar-nav">
-        <a href="#home" class="sidebar-link"><i class="fas fa-home"></i><span class="home-text">Home</span></a>
-        <a href="#features" class="sidebar-link"><i class="fas fa-list"></i><span class="feat-text">features</span></a>
-        <a href="#dashboard" class="sidebar-link"><i class="fas fa-tachometer-alt"></i><span class="dash-text">dashboards</span></a>
-        <a href="#contact" class="sidebar-link"><i class="fas fa-envelope"></i><span class="contacts-text">contacts</span></a>
+        <a href="#home" class="sidebar-link"
+          ><i class="fas fa-home"></i><span class="home-text">Home</span></a
+        >
+        <a href="#features" class="sidebar-link"
+          ><i class="fas fa-list"></i><span class="feat-text">features</span></a
+        >
+        <a href="#dashboard" class="sidebar-link"
+          ><i class="fas fa-tachometer-alt"></i
+          ><span class="dash-text">dashboards</span></a
+        >
+        <a href="#log" class="sidebar-link"
+          ><i class="fa-solid fa-plus"></i
+          ><span class="contacts-text">Log/Review</span></a
+        >
       </nav>
 
       <div class="sidebar-auth">
-       <p>...</p>
+        <a href="#settings" class="nav-settings"
+          ><i class="fa-solid fa-bars"></i
+          ><span class="settings-text">Settings</span></a
+        >
       </div>
     </aside>
 
-    <!-- main content -->
-    <main class="main-content">
+    
       <!-- Hero Section -->
       <section class="hero">
         <div class="hero-wrapper">
@@ -38,144 +52,43 @@
             <div class="profile-card">
               <div class="profile-header">
                 <div class="profile-avatar">
-                  <i class="fas fa-robot"></i>
+                  <img
+                    class="profile-pic"
+                    src="/assets/MAIN PAGE/Sample profile.png"
+                    width="50px"
+                    alt=""
+                  />
                 </div>
-                <h1>UrStats Analytics</h1>
-                <p class="profile-subtitle">Advanced AI-Powered Data Analytics</p>
-              </div>
-              <div class="profile-stats">
-                <div class="stat-item">
-                  <span class="stat-label">Users</span>
-                  <span class="stat-value">10K+</span>
-                </div>
-                <div class="stat-item">
-                  <span class="stat-label">Data Processed</span>
-                  <span class="stat-value">1TB+</span>
-                </div>
-                <div class="stat-item">
-                  <span class="stat-label">Accuracy</span>
-                  <span class="stat-value">99%</span>
-                </div>
-              </div>
-              <div class="profile-actions">
-                <button class="btn-primary-large">Get Started</button>
-                <button class="btn-secondary-large">Learn More</button>
-              </div>
-              <div class="profile-description">
-                <p>Unlock powerful insights from your data with our AI-powered analytics platform. Real-time dashboards, predictive analysis, and collaborative tools for teams of any size.</p>
-              </div>
-            </div>
-          </div>
 
-          <div class="hero-right">
-            <div class="feature-showcase">
-              <div class="showcase-card">
-                <i class="fas fa-brain"></i>
-                <h3>AI-Powered Insights</h3>
-                <p>Machine learning algorithms that understand your data</p>
+                <div class="header">
+                  <h1>UrStats&nbsp;Analytics</h1>
+                  <h2 class="Campus">
+                    <i class="fa-solid fa-house"></i>
+                    University&nbsp;of&nbsp;Rizal
+                    &nbsp;System&nbsp;-&nbsp;Morong&nbsp;Campus
+                  </h2>
+                  <h2 class="YearLevel">
+                    <i class="fa-solid fa-scroll"></i> Second Year, Computer
+                    Science
+                  </h2>
+
+                  <div class="head-buttons">
+                    <button>Find Friends</button>
+                    <button>
+                      <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </button>
+                    <button><i class="fa-regular fa-pen-to-square"></i></button>
+                  </div>
+                </div>
               </div>
-              <div class="showcase-card">
-                <i class="fas fa-lightning-bolt"></i>
-                <h3>Real-Time Analytics</h3>
-                <p>Instant data processing and visualization</p>
-              </div>
-              <div class="showcase-card">
-                <i class="fas fa-lock"></i>
-                <h3>Enterprise Security</h3>
-                <p>Bank-level encryption and compliance</p>
-              </div>
-              <div class="showcase-card">
-                <i class="fas fa-users-cog"></i>
-                <h3>Team Collaboration</h3>
-                <p>Share dashboards and work together seamlessly</p>
-              </div>
+
+          
+
+              <hr />
             </div>
           </div>
         </div>
       </section>
-
-      <!-- Features Section -->
-      <section class="features-section">
-        <div class="features-container">
-          <h2>Powerful Features</h2>
-          <div class="features-list">
-            <div class="feature-item">
-              <div class="feature-icon">
-                <i class="fas fa-chart-bar"></i>
-              </div>
-              <div class="feature-content">
-                <h3>Advanced Dashboards</h3>
-                <p>Customizable dashboards with drag-and-drop widgets</p>
-              </div>
-            </div>
-            <div class="feature-item">
-              <div class="feature-icon">
-                <i class="fas fa-magic"></i>
-              </div>
-              <div class="feature-content">
-                <h3>Automated Reports</h3>
-                <p>Generate insightful reports automatically on schedule</p>
-              </div>
-            </div>
-            <div class="feature-item">
-              <div class="feature-icon">
-                <i class="fas fa-code"></i>
-              </div>
-              <div class="feature-content">
-                <h3>API Access</h3>
-                <p>Integrate with your existing tools and workflows</p>
-              </div>
-            </div>
-            <div class="feature-item">
-              <div class="feature-icon">
-                <i class="fas fa-globe"></i>
-              </div>
-              <div class="feature-content">
-                <h3>Global Scale</h3>
-                <p>Process data at scale with our distributed infrastructure</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-section">
-            <h4>UrStats</h4>
-            <p>Advanced analytics for the modern business</p>
-          </div>
-          <div class="footer-section">
-            <h4>Product</h4>
-            <ul>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Documentation</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Company</h4>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Legal</h4>
-            <ul>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Security</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>&copy; 2025 UrStats. All rights reserved.</p>
-        </div>
-      </footer>
-    </main>
+   
   </body>
 </html>
-
