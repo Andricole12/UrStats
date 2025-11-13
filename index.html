@@ -1,94 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UrStats - AI Analytics Profile</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- sidebar (converted from header) -->
-    <aside class="sidebar">
-      <div class="sidebar-top">
-        <div class="nav-logo">
-          <img src="/assets/Side Bar/urs logo.jpg" alt="" class="urs-logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UrStats - AI Analytics Profile</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <nav class="sidebar">
+
+    <div class="sidebar-top">
+      <div class="nav-logo">
+        <img src="/assets/Side Bar/urs logo.jpg" alt="" class="urs-logo" />
+      </div>
+    </div>
+
+    <div class="sidebar-nav">
+      <a href="#home" class="sidebar-link"><i class="fas fa-home"></i><span class="home-text">Home</span></a>
+      <a href="#features" class="sidebar-link"><i class="fas fa-list"></i><span class="feat-text">features</span></a>
+      <a href="#dashboard" class="sidebar-link"><i class="fas fa-tachometer-alt"></i><span
+          class="dash-text">dashboards</span></a>
+      <a href="#log" class="sidebar-link"><i class="fa-solid fa-plus"></i><span
+          class="contacts-text">Log/Review</span></a>
+    </div>
+
+    <div class="sidebar-auth">
+      <a href="#settings" class="nav-settings"><i class="fa-solid fa-bars"></i><span
+          class="settings-text">Settings</span></a>
+    </div>
+  </nav>
+
+
+  <section class="main-page">
+
+    <div class="info-container">
+
+      <div class="user-info">
+        <img src="assets/MAIN PAGE/Sample profile.png" alt="" class="sample-profile">
+
+        <div class="user-details">
+          <h1>Username</h1>
+          <p>TIPA</p>
+          <textarea class="user-input" rows="2" placeholder="Enter bio..."></textarea>
         </div>
       </div>
 
-      <nav class="sidebar-nav">
-        <a href="#home" class="sidebar-link"
-          ><i class="fas fa-home"></i><span class="home-text">Home</span></a
-        >
-        <a href="#features" class="sidebar-link"
-          ><i class="fas fa-list"></i><span class="feat-text">features</span></a
-        >
-        <a href="#dashboard" class="sidebar-link"
-          ><i class="fas fa-tachometer-alt"></i
-          ><span class="dash-text">dashboards</span></a
-        >
-        <a href="#log" class="sidebar-link"
-          ><i class="fa-solid fa-plus"></i
-          ><span class="contacts-text">Log/Review</span></a
-        >
-      </nav>
-
-      <div class="sidebar-auth">
-        <a href="#settings" class="nav-settings"
-          ><i class="fa-solid fa-bars"></i
-          ><span class="settings-text">Settings</span></a
-        >
+      <div class="user-stats">
+        <h3>Statistics</h3>
       </div>
-    </aside>
 
-    
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="hero-wrapper">
-          <div class="hero-left">
-            <div class="profile-card">
-              <div class="profile-header">
-                <div class="profile-avatar">
-                  <img
-                    class="profile-pic"
-                    src="/assets/MAIN PAGE/Sample profile.png"
-                    width="50px"
-                    alt=""
-                  />
-                </div>
+      <div class="user-courses">
 
-                <div class="header">
-                  <h1>UrStats&nbsp;Analytics</h1>
-                  <h2 class="Campus">
-                    <i class="fa-solid fa-house"></i>
-                    University&nbsp;of&nbsp;Rizal
-                    &nbsp;System&nbsp;-&nbsp;Morong&nbsp;Campus
-                  </h2>
-                  <h2 class="YearLevel">
-                    <i class="fa-solid fa-scroll"></i> Second Year, Computer
-                    Science
-                  </h2>
+        <h3>Courses</h3>
 
-                  <div class="head-buttons">
-                    <button>Find Friends</button>
-                    <button>
-                      <i class="fa-solid fa-arrow-up-from-bracket"></i>
-                    </button>
-                    <button><i class="fa-regular fa-pen-to-square"></i></button>
-                  </div>
-                </div>
-              </div>
-
+        <div class="div-line">
           
-
-              <hr />
-            </div>
-          </div>
         </div>
-      </section>
-   
-  </body>
+        <div class="courses-box">
+          <img src="assets/MAIN PAGE/sample book 1.png" alt="">
+          <img src="assets/MAIN PAGE/Sample Book 2.png" alt="">
+          <img src="assets/MAIN PAGE/sample book 3.png" alt="">
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+</body>
+
 </html>
